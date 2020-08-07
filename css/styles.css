@@ -1,5 +1,6 @@
 .jumbotron {
-  background-image: url("../images/travel-jumbotron.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/travel-jumbotron.jpg");
   background-size: cover;
   height: 100vh;
 }
