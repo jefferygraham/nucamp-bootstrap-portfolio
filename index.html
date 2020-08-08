@@ -16,6 +16,18 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Bootstrap Social Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css"
+      integrity="sha512-f8mUMCRNrJxPBDzPJx3n+Y5TC5xp6SmStstEfgsDXZJTcxBakoB5hvPLhAfJKa9rCvH+n3xpJ2vQByxLk4WP2g=="
+      crossorigin="anonymous"
+    />
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
@@ -80,8 +92,8 @@
       </div>
     </div>
 
-    <!-- Form -->
     <div class="container">
+      <!-- Form -->
       <div class="row row-content flex-column">
         <h3>Contact Us</h3>
         <form class="form-inline">
@@ -110,17 +122,155 @@
           />
 
           <label class="sr-only" for="date">Date</label>
-          <input
-            type="date"
-            class="form-control mb-2 mr-sm-2"
-            id="date"
-            placeholder="date"
-          />
+          <input type="date" class="form-control mb-2 mr-sm-2" id="date" />
 
           <button type="submit" class="btn btn-primary mb-2">Submit</button>
         </form>
       </div>
+
+      <!-- Destinations -->
+      <div class="row row-content">
+        <h3>Popular Destinations</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Necessitatibus ducimus perspiciatis neque qui velit nesciunt deserunt
+          quisquam, quod dignissimos sunt quis, cum quas illum voluptatum atque
+          rem sint dolore! Perferendis.
+        </p>
+      </div>
+      <div class="card-deck">
+        <div class="card">
+          <img src="./images/paris.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Paris</h5>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./images/thailand.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Thailand</h5>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./images/greece.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Greece</h5>
+          </div>
+        </div>
+      </div>
     </div>
+
+    <!-- Services -->
+    <div class="container-fluid bg-light">
+      <div class="container">
+        <div class="row row-content">
+          <div class="col">
+            <i class="fa fa-plane fa-2x" aria-hidden="true"></i>
+            <h3>Ticketing</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. A,
+              ipsum!
+            </p>
+            <a href="#">Read More</a>
+          </div>
+          <div class="col">
+            <i class="fa fa-thumbs-up fa-2x" aria-hidden="true"></i>
+            <h3>Tourist Guides</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. A,
+              ipsum!
+            </p>
+            <a href="#">Read More</a>
+          </div>
+          <div class="col">
+            <i class="fa fa-bed fa-2x" aria-hidden="true"></i>
+            <h3>Hotel Booking</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. A,
+              ipsum!
+            </p>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer bg-dark">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col text-white text-center">
+            <h5>Traveling</h5>
+            <p>All Rights Reserved</p>
+            <p><i class="fa fa-copyright" aria-hidden="true"></i>2020</p>
+          </div>
+          <div class="col">
+            <h5 class="text-white">Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col text-center">
+            <h5 class="text-white">Social</h5>
+            <a
+              class="btn btn-social-icon btn-instagram"
+              href="http://instagram.com/"
+            >
+              <i class="fa fa-instagram"></i>
+            </a>
+            <a
+              class="btn btn-social-icon btn-facebook"
+              href="http://facebook.com/"
+            >
+              <i class="fa fa-facebook"></i>
+            </a>
+            <a
+              class="btn btn-social-icon btn-twitter"
+              href="http://twitter.com/"
+            >
+              <i class="fa fa-twitter"></i>
+            </a>
+            <a
+              class="btn btn-social-icon btn-google"
+              href="http://youtube.com/"
+            >
+              <i class="fa fa-youtube"></i>
+            </a>
+          </div>
+          <div class="col text-center">
+            <a role="button" class="btn btn-link" href="tel:+18005551234">
+              <i class="fa fa-phone"></i> 1-800-555-1234
+            </a>
+            <br />
+            <a role="button" class="btn btn-link" href="mailto:info@travel.co">
+              <i class="fa fa-envelope-o"></i> info@travel.co
+            </a>
+          </div>
+          <div class="col text-center">
+            <form>
+              <h5 class="text-white">Subscribe</h5>
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter email"
+                  aria-label="Enter email"
+                  aria-describedby="faSubmitButton"
+                />
+                <div class="input-group-append">
+                  <span class="input-group-text" id="faSubmitButton"
+                    ><i class="fa fa-send" aria-hidden="true"></i
+                  ></span>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
