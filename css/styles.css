@@ -1,5 +1,12 @@
 /* 
-COLORS
+COLORS:
+DULL
+#5599cc
+#bbcccc
+#556666
+#99aaaa
+#668855
+VIBRANT
 #2299ff
 #bbbbcc
 #446677
@@ -20,13 +27,21 @@ COLORS
 }
 
 .btn-primary {
-  background-color: #446677;
+  background-color: #559944;
   border: none;
 }
 
 .btn-primary:hover {
-  background-color: #556666;
+  background-color: #668855;
   border: none;
+}
+
+.btn-primary:focus {
+  box-shadow: none;
+}
+
+.navbar {
+  background-color: #446677;
 }
 
 .row-content {
