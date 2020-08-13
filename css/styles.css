@@ -1,6 +1,35 @@
+/* 
+COLORS
+#2299ff
+#bbbbcc
+#446677
+#88aabb
+#559944
+*/
 .jumbotron {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/travel-jumbotron.jpg");
-  background-size: cover;
-  height: 100vh;
+  margin: 0;
+  padding: 30px;
+  background: rgb(34, 153, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(34, 153, 255, 1) 0%,
+    rgba(187, 187, 204, 1) 50%,
+    rgba(136, 170, 187, 1) 100%
+  );
+  color: white;
+}
+
+.btn-primary {
+  background-color: #446677;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #556666;
+  border: none;
+}
+
+.row-content {
+  padding: 50px 0;
+  min-height: 200px;
 }
