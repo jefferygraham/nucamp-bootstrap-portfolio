@@ -44,6 +44,11 @@ VIBRANT
   background-color: #446677;
 }
 
+#mainCarousel,
+#mainCarousel img {
+  height: 100vh;
+}
+
 .row-content {
   padding: 50px 0;
   min-height: 200px;
