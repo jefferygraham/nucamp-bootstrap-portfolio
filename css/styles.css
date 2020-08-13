@@ -13,19 +13,6 @@ VIBRANT
 #88aabb
 #559944
 */
-.jumbotron {
-  margin: 0;
-  padding: 30px;
-  background: rgb(34, 153, 255);
-  background: linear-gradient(
-    90deg,
-    rgba(34, 153, 255, 1) 0%,
-    rgba(187, 187, 204, 1) 50%,
-    rgba(136, 170, 187, 1) 100%
-  );
-  color: white;
-}
-
 .btn-primary {
   background-color: #559944;
   border: none;
@@ -40,16 +27,35 @@ VIBRANT
   box-shadow: none;
 }
 
-.navbar {
-  background-color: #446677;
+#mainCarousel {
+  margin-top: 90px;
+  height: calc(100vh - 90px);
 }
 
-#mainCarousel,
-#mainCarousel img {
-  height: 100vh;
+.carousel-item img {
+  height: calc(100vh - 90px);
+  object-fit: cover;
 }
 
 .row-content {
   padding: 50px 0;
   min-height: 200px;
+}
+
+.carousel-caption {
+  color: white;
+  right: 58%;
+  text-align: center;
+  max-width: 500px;
+  left: auto;
+  /*top: auto;*/
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial;
+}
+
+.item {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
 }
