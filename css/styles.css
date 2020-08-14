@@ -1,4 +1,10 @@
 /* COLORS */
+body {
+  font-family: "Rubik", sans-serif; }
+
+.heading {
+  font-family: "Old Standard TT", serif; }
+
 .color-primary {
   background-color: #559944;
   border: none; }
@@ -14,7 +20,7 @@
   background-color: #4d1240; }
 
 body {
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Rubik", sans-serif; }
 
 #mainCarousel {
   margin-top: 90px;

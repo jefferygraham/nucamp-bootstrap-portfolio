@@ -5,7 +5,16 @@ $color-dark: #4d1240;
 $color-black-tint: rgba(0, 0, 0, 0.7);
 
 // TYPOGRAPHY
-$body-font: "Open Sans", sans-serif;
+$body-font: "Rubik", sans-serif;
+$heading-font: "Old Standard TT", serif;
+
+body {
+  font-family: $body-font;
+}
+
+.heading {
+  font-family: $heading-font;
+}
 
 .color-primary {
   background-color: $color-primary;
