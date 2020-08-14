@@ -1,46 +1,32 @@
-/* 
-COLORS:
-DULL
-#5599cc
-#bbcccc
-#556666
-#99aaaa
-#668855
-VIBRANT
-#2299ff
-#bbbbcc
-#446677
-#88aabb
-#559944
-*/
-.btn-primary {
+/* COLORS */
+.color-primary {
   background-color: #559944;
-  border: none;
-}
+  border: none; }
 
-.btn-primary:hover {
+.color-primary:hover {
   background-color: #668855;
-  border: none;
-}
+  border: none; }
 
-.btn-primary:focus {
-  box-shadow: none;
-}
+.color-primary:focus {
+  box-shadow: none; }
+
+.color-dark {
+  background-color: #4d1240; }
+
+body {
+  font-family: "Open Sans", sans-serif; }
 
 #mainCarousel {
   margin-top: 90px;
-  height: calc(100vh - 90px);
-}
+  height: calc(100vh - 90px); }
 
 .carousel-item img {
   height: calc(100vh - 90px);
-  object-fit: cover;
-}
+  object-fit: cover; }
 
 .row-content {
   padding: 50px 0;
-  min-height: 200px;
-}
+  min-height: 200px; }
 
 .carousel-caption {
   color: white;
@@ -51,22 +37,17 @@ VIBRANT
   /*top: auto;*/
   top: 50%;
   transform: translateY(-50%);
-  bottom: initial;
-}
+  bottom: initial; }
 
 .item {
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-}
+  transform-style: preserve-3d; }
 
 #bookingBanner {
   padding: 6rem 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
-    url("../images/booking-banner.jpg");
-  background-size: cover;
-}
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/booking-banner.jpg");
+  background-size: cover; }
 
 #services {
-  padding: 6rem 0;
-}
+  padding: 6rem 0; }

@@ -28,6 +28,8 @@
       integrity="sha512-f8mUMCRNrJxPBDzPJx3n+Y5TC5xp6SmStstEfgsDXZJTcxBakoB5hvPLhAfJKa9rCvH+n3xpJ2vQByxLk4WP2g=="
       crossorigin="anonymous"
     />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
@@ -78,7 +80,7 @@
         </ul>
         <!-- Button trigger modal -->
         <button
-          class="btn btn-primary my-2 my-sm-0"
+          class="btn color-primary text-white my-2 my-sm-0"
           data-toggle="modal"
           data-target="#bookingModal"
           type="submit"
@@ -99,7 +101,7 @@
     >
       <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
-          <div class="modal-header">
+          <div class="modal-header text-white color-dark">
             <h5 class="modal-title" id="bookTrip">Book A Trip</h5>
             <button
               type="button"
@@ -107,7 +109,7 @@
               data-dismiss="modal"
               aria-label="Close"
             >
-              <span aria-hidden="true">&times;</span>
+              <span class="text-white" aria-hidden="true">&times;</span>
             </button>
           </div>
           <div class="modal-body">
@@ -188,7 +190,9 @@
               >
                 Cancel
               </button>
-              <button type="button" class="btn btn-primary">Search Now</button>
+              <button type="button" class="btn text-white color-primary">
+                Search Now
+              </button>
             </form>
           </div>
         </div>
@@ -302,7 +306,9 @@
           id="inlineFormInputName2"
         />
 
-        <button type="submit" class="btn btn-primary mb-2 px-5">Submit</button>
+        <button type="submit" class="btn text-white color-primary mb-2 px-5">
+          Submit
+        </button>
       </form>
       <div class="row">
         <p>
@@ -396,12 +402,14 @@
     <div id="bookingBanner" class="container-fluid">
       <div class="row">
         <div class="col-6 offset-3 text-center text-white">
-          <h2>Book a Tour From The Comfort Of Your Own Home</h2>
-          <p>
+          <h2 class="display-4">
+            Book a Tour From The Comfort Of Your Own Home
+          </h2>
+          <p class="lead">
             Using our website, you can easily find and book any tour you want.
             Mobile users will definitely enjoy our app available on all devices.
           </p>
-          <a href="#" class="btn btn-primary">Book Now</a>
+          <a href="#" class="btn text-white color-primary">Book Now</a>
         </div>
       </div>
     </div>
@@ -439,7 +447,7 @@
     </div>
 
     <!-- FOOTER -->
-    <footer class="container-fluid bg-dark text-light py-5">
+    <footer class="container-fluid color-dark text-light py-5">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-3 d-flex align-items-center">
