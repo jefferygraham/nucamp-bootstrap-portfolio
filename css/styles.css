@@ -30,25 +30,15 @@ body {
   height: calc(100vh - 90px);
   object-fit: cover; }
 
-.row-content {
-  padding: 50px 0;
-  min-height: 200px; }
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%; }
 
 .carousel-caption {
-  color: white;
-  right: 58%;
-  text-align: center;
-  max-width: 500px;
-  left: auto;
-  /*top: auto;*/
   top: 50%;
   transform: translateY(-50%);
   bottom: initial; }
-
-.item {
-  -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
-  transform-style: preserve-3d; }
 
 #bookingBanner {
   padding: 6rem 0;
