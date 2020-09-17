@@ -5,8 +5,8 @@ $color-dark: #4d1240;
 $color-black-tint: rgba(0, 0, 0, 0.7);
 
 // TYPOGRAPHY
-$body-font: "Rubik", sans-serif;
-$heading-font: "Old Standard TT", serif;
+$body-font: 'Rubik', sans-serif;
+$heading-font: 'Old Standard TT', serif;
 $enable-responsive-font-sizes: true;
 
 body {
@@ -59,13 +59,6 @@ body {
   top: 50%;
   transform: translateY(-50%);
   bottom: initial;
-}
-
-#bookingBanner {
-  padding: 6rem 0;
-  background: linear-gradient($color-black-tint, $color-black-tint),
-    url("../images/booking-banner.jpg");
-  background-size: cover;
 }
 
 #services {
