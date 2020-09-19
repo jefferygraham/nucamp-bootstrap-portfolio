@@ -40,9 +40,6 @@ body {
   transform: translateY(-50%);
   bottom: initial; }
 
-#services {
-  padding: 6rem 0; }
-
 .jarallax {
   position: relative;
   z-index: 0; }
